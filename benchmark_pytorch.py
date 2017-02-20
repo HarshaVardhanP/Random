@@ -1,4 +1,4 @@
-#python belfer_pyt.py /home/harsha/Desktop/Datasets/DumData
+#python benchmark_pytorch.py /home/harsha/Desktop/Datasets/DumData
 
 from __future__ import print_function
 import argparse
