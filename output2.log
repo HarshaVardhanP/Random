@@ -1,0 +1,71 @@
+num_workers=12
+/home/harsha/Desktop/Datasets/DumData/val
+AlexNet (
+  (features): Sequential (
+    (0): Conv2d(3, 64, kernel_size=(11, 11), stride=(4, 4), padding=(2, 2))
+    (1): ReLU (inplace)
+    (2): MaxPool2d (size=(3, 3), stride=(2, 2), dilation=(1, 1))
+    (3): Conv2d(64, 192, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (4): ReLU (inplace)
+    (5): MaxPool2d (size=(3, 3), stride=(2, 2), dilation=(1, 1))
+    (6): Conv2d(192, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (7): ReLU (inplace)
+    (8): Conv2d(384, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): ReLU (inplace)
+    (10): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): ReLU (inplace)
+    (12): MaxPool2d (size=(3, 3), stride=(2, 2), dilation=(1, 1))
+  )
+  (classifier): Sequential (
+    (0): Dropout (p = 0.5)
+    (1): Linear (9216 -> 4096)
+    (2): ReLU (inplace)
+    (3): Dropout (p = 0.5)
+    (4): Linear (4096 -> 4096)
+    (5): ReLU (inplace)
+    (6): Linear (4096 -> 1000)
+  )
+)
+Batch: 1 Time: 0.733977079391
+Batch: 2 Time: 0.0145719051361
+Batch: 3 Time: 0.0548870563507
+Batch: 4 Time: 0.0555241107941
+Batch: 5 Time: 0.0551700592041
+Batch: 6 Time: 0.0086030960083
+Batch: 7 Time: 0.053946018219
+Batch: 8 Time: 0.0672590732574
+Batch: 9 Time: 0.063539981842
+Batch: 10 Time: 0.0595769882202
+Batch: 11 Time: 0.0635390281677
+Batch: 12 Time: 0.0595979690552
+Batch: 13 Time: 0.0516309738159
+Batch: 14 Time: 0.00878596305847
+Batch: 15 Time: 0.0504610538483
+Batch: 16 Time: 0.0606849193573
+Batch: 17 Time: 0.0676910877228
+Batch: 18 Time: 0.0639600753784
+Batch: 19 Time: 0.0342919826508
+Batch: 20 Time: 0.0503590106964
+Batch: 21 Time: 0.0757360458374
+Batch: 22 Time: 0.0599400997162
+Batch: 23 Time: 0.0341579914093
+Batch: 24 Time: 0.00856518745422
+Batch: 25 Time: 0.0487239360809
+Batch: 26 Time: 0.00877404212952
+Batch: 27 Time: 0.0497450828552
+Batch: 28 Time: 0.0085391998291
+Batch: 29 Time: 0.00993084907532
+Batch: 30 Time: 0.0522770881653
+Batch: 31 Time: 0.00892305374146
+Batch: 32 Time: 0.00876998901367
+Batch: 33 Time: 0.0583689212799
+Batch: 34 Time: 0.0249938964844
+Batch: 35 Time: 0.0556290149689
+Batch: 36 Time: 0.00844883918762
+Batch: 37 Time: 0.00872898101807
+Batch: 38 Time: 0.0109961032867
+Batch: 39 Time: 0.0495109558105
+Batch: 40 Time: 0.0636830329895
+Avg Batch Time: 0.0583124935627
+Total Time: 10.038836956
+Total Batches: 40
